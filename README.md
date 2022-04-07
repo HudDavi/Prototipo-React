@@ -13,7 +13,7 @@
 <p>Footer - Prototipo-React/src/js/components/footer/index.js</p>
 <ol>
 <li>Global - Componente de reset e stylos globais.</li>
-<li>Header, Menu, Lista, Overlay, Figure - Cabeçaçhoa da página, que inclui o menu e a logo.</li>
+<li>Header, Menu, Lista, Overlay, Figure - Cabeçalho da página, que inclui o menu e a logo.</li>
 <li>Article - Conteúdo principal da página, inclui o carrossel de imagens e dados sobre os carros.</li>
 <li>Footer - Rodapé da página, inclui imagens e uma descrição detalhada do carro.</li>
 </ol>
