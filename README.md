@@ -29,7 +29,7 @@
 <li>Acesse a pasta do projeto:</li>
 <p>cd Prototipo-React</p>
 <li>Em seguida instale o react, react-dom, react-scripts, web-vitals, styled-components e @iconify/react:</li>
-<p>npm install --save react@latest react-dom@latest react-scripts@latest web-vitals@latest styled-components@latest @iconify/react@latest</p>
+<p>npm install --save react react-dom react-scripts web-vitals styled-components @iconify/react</p>
 <li>Execute a aplicação:</li>
 <p>npm start</p>
 <li>Acesse a aplicação no seu navegador:</li>
