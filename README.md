@@ -1,37 +1,62 @@
-<h2>Protótipo React</h2>
-<h3>Habilidades:</h3>
-<div display="inline-block">
-<img height="30px" width="10%" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-<img height="30px" width="10%" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-<img height="30px" width="10%" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-</div>
-<h3>Componentes:</h3>
-<p>Localizados no diretório "js" no caminho - Prototipo-React/src/js/components</p>
-<p>Global - Prototipo-React/src/js/components/global/index.js</p>
-<p>Header, Menu, Lista, Overlay, Figure - Prototipo-React/src/js/components/header/index.js</p>
-<p>Article - Prototipo-React/src/js/components/article/index.js</p>
-<p>Footer - Prototipo-React/src/js/components/footer/index.js</p>
-<ol>
-<li>Global - Componente de reset e stylos globais.</li>
-<li>Header, Menu, Lista, Overlay, Figure - Cabeçalho da página, que inclui o menu e a logo.</li>
-<li>Article - Conteúdo principal da página, inclui o carrossel de imagens e dados sobre os carros.</li>
-<li>Footer - Rodapé da página, inclui imagens e uma descrição detalhada do carro.</li>
-</ol>
-<hr>
-<h3>Siga as etapas abaixo para executar a aplicação:</h3>
-<ol>
-<li>Baixe e instale o Git caso ainda não tenha instalado:</li>
-<p>https://git-scm.com/downloads</p>
-<li>Baixe e instale o NodeJS caso ainda não tenha instalado:</li>
-<p>https://nodejs.org/en/download/</p>
-<li>Faça o download do projeto via terminal:</li>
-<p>git clone https://github.com/HudDavi/Prototipo-React.git</p>
-<li>Acesse a pasta do projeto:</li>
-<p>cd Prototipo-React</p>
-<li>Em seguida instale o react, react-dom, react-scripts, web-vitals, styled-components e @iconify/react:</li>
-<p>npm install --save react react-dom react-scripts web-vitals styled-components @iconify/react</p>
-<li>Execute a aplicação:</li>
-<p>npm start</p>
-<li>Acesse a aplicação no seu navegador:</li>
-<p>https://localhost:3000</p>
-</ol>
+# Aplicação React com Styled Components
+
+Este é um projeto React que utiliza o Styled Components para estilização. Ele carrega um tema personalizado e renderiza o componente principal, chamado `App`, com uma propriedade `tab` definida como "home". Além disso, ele usa pacotes como `@iconify/react`, `react-dom`, e `web-vitals` para criar uma experiência de usuário agradável.
+
+## Conteúdo
+
+- [Visão Geral](#visão-geral)
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+## Visão Geral
+
+Este projeto React utiliza Styled Components para gerenciar estilos e um tema personalizado definido com cores primárias e secundárias. Ele renderiza o componente `App` com uma propriedade `tab` definida como "home". Você pode personalizar o tema e a lógica do componente `App` de acordo com suas necessidades.
+
+## Requisitos
+
+Certifique-se de que você tenha as seguintes ferramentas instaladas:
+
+- Node.js
+- npm
+
+## Instalação
+
+1. Clone o repositório:
+
+```bash
+git https://github.com/HudDavi/Prototipo-React.git
+cd Prototipo-React
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+## Como Usar
+
+Para iniciar a aplicação, você pode executar o seguinte comando:
+
+```bash
+npm start
+```
+
+A aplicação será iniciada e estará disponível em `http://localhost:3000` ou `http://127.0.0.1:3000`. Você pode personalizar a lógica do componente `App` e os estilos usando Styled Components de acordo com suas necessidades.
+
+## Contribuição
+
+Se você deseja contribuir para este projeto, siga as etapas abaixo:
+
+1. Fork o projeto.
+2. Crie uma nova branch com a sua funcionalidade: `git checkout -b feature/nova-funcionalidade`.
+3. Faça commit das suas alterações: `git commit -am 'Adicionei uma nova funcionalidade'`.
+4. Faça push para a branch: `git push origin feature/nova-funcionalidade`.
+5. Abra uma solicitação pull no GitHub.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
